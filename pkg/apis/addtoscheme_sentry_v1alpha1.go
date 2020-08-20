@@ -1,7 +1,7 @@
 package apis
 
 import (
-	"github.com/sr/kube-sentry-controller/pkg/apis/sentry/v1alpha1"
+	"github.com/Benbentwo/kube-sentry-controller/pkg/apis/sentry/v1alpha1"
 )
 
 func init() {

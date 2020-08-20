@@ -1,4 +1,4 @@
-module github.com/sr/kube-sentry-controller
+module github.com/Benbentwo/kube-sentry-controller
 
 go 1.12
 

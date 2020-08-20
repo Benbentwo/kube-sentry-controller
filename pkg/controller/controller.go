@@ -3,9 +3,9 @@ package sentrycontroller
 import (
 	"time"
 
+	sentryv1alpha1 "github.com/Benbentwo/kube-sentry-controller/pkg/apis/sentry/v1alpha1"
+	"github.com/Benbentwo/kube-sentry-controller/pkg/sentry"
 	"github.com/go-logr/logr"
-	sentryv1alpha1 "github.com/sr/kube-sentry-controller/pkg/apis/sentry/v1alpha1"
-	"github.com/sr/kube-sentry-controller/pkg/sentry"
 	corev1 "k8s.io/api/core/v1"
 	"sigs.k8s.io/controller-runtime/pkg/controller"
 	"sigs.k8s.io/controller-runtime/pkg/handler"

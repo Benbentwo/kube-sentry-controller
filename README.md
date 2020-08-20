@@ -9,7 +9,7 @@ A set of Kubernetes [CustomResourceDefinition][crd] and a controller for managin
 To install the `kube-sentry-controller` binary, run:
 
 ```
-go get github.com/sr/kube-sentry-controller
+go get github.com/Benbentwo/kube-sentry-controller
 ```
 
 Note that while the binary could be used as is, it is mainly provided as an example for how to use the `sentrycontroller` package. For production deployments you'd typically write your own main that integrates (metrics, logging, ...) with your existing infrastructure.

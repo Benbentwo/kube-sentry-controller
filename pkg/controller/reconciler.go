@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"time"
 
+	sentryv1alpha1 "github.com/Benbentwo/kube-sentry-controller/pkg/apis/sentry/v1alpha1"
+	"github.com/Benbentwo/kube-sentry-controller/pkg/sentry"
 	"github.com/pkg/errors"
-	sentryv1alpha1 "github.com/sr/kube-sentry-controller/pkg/apis/sentry/v1alpha1"
-	"github.com/sr/kube-sentry-controller/pkg/sentry"
 	corev1 "k8s.io/api/core/v1"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	sentryv1alpha1 "github.com/sr/kube-sentry-controller/pkg/apis/sentry/v1alpha1"
-	sentry "github.com/sr/kube-sentry-controller/pkg/sentry"
+	sentryv1alpha1 "github.com/Benbentwo/kube-sentry-controller/pkg/apis/sentry/v1alpha1"
+	sentry "github.com/Benbentwo/kube-sentry-controller/pkg/sentry"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"

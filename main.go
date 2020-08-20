@@ -8,10 +8,10 @@ import (
 	"os"
 	"time"
 
+	"github.com/Benbentwo/kube-sentry-controller/pkg/apis"
+	"github.com/Benbentwo/kube-sentry-controller/pkg/controller"
+	"github.com/Benbentwo/kube-sentry-controller/pkg/sentry"
 	"github.com/pkg/errors"
-	"github.com/sr/kube-sentry-controller/pkg/apis"
-	"github.com/sr/kube-sentry-controller/pkg/controller"
-	"github.com/sr/kube-sentry-controller/pkg/sentry"
 	"sigs.k8s.io/controller-runtime/pkg/client/config"
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 	logf "sigs.k8s.io/controller-runtime/pkg/runtime/log"
