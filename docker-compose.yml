@@ -1,0 +1,6 @@
+version: "3.2"
+services:
+  kube-sentry-controller:
+    build:
+      context: .
+      dockerfile: Dockerfile.test
